@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+
+# production
+/out
+/build
+/.next
+/.next-export
+.now
+dist
+next.config.*
+now.json
+
+# misc
+importProducts.mongoDB
+.DS_Store
+npm-debug.log*

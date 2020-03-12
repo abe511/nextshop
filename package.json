@@ -1,0 +1,32 @@
+{
+  "name": "next-shop",
+  "version": "1.0.0",
+  "description": "React Node.js Next.js MongoDB online shop",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.0",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.1",
+    "next": "^9.2.2",
+    "nookies": "^2.0.8",
+    "nprogress": "^0.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-stripe-checkout": "^2.6.3",
+    "semantic-ui-react": "^0.88.2",
+    "shortid": "^2.2.15",
+    "stripe": "^8.28.0",
+    "uuid": "^7.0.1",
+    "validator": "^12.2.0"
+  }
+}
