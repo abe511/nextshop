@@ -1,1 +1,1 @@
-[click here](https://nextshop.now.sh)
+[ZEIT Now](https://thenextshop.now.sh)
