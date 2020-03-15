@@ -29,7 +29,12 @@ function Cart({ user, products }) {
       // constructing POST request for Checkout
       const { token } = parseCookies({}, 'token');
       const payload = { paymentData };
-      const headers = { headers: { Authorization: token } };
+      const headers = {
+        headers: {
+          Authorization: token,
+          'Access-Control-Allow-Methods': 'POST'
+        }
+      };
       await axios.post(`${baseURL}/api/checkout`, payload, headers);
       setSuccess(true);
     } catch (error) {
