@@ -37,7 +37,7 @@ function AddProductToCart({ productID, quantity, user }) {
       setLoading(true);
       const { token } = parseCookies({}, 'token');
       const headers = {
-        headers: { Authorization: token, 'Access-Control-Allow-Methods': 'GET' }
+        headers: { Authorization: token }
       };
       const payload = { orderQuantity, productID };
       await axios.put(`${baseURL}/api/cart`, payload, headers);
