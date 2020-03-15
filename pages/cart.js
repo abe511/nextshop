@@ -31,8 +31,7 @@ function Cart({ user, products }) {
       const payload = { paymentData };
       const headers = {
         headers: {
-          Authorization: token,
-          'Access-Control-Allow-Methods': 'POST'
+          Authorization: token
         }
       };
       await axios.post(`${baseURL}/api/checkout`, payload, headers);
