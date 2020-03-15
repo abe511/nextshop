@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Header from './Header';
+import HeadContent from './HeadContent';
 import { Container } from 'semantic-ui-react';
 
 // distribute user status to all child components
@@ -7,6 +8,7 @@ function Layout({ children, user }) {
   return (
     <>
       <Head>
+        <HeadContent />
         <link rel="stylesheet" type="text/css" href="/static/styles.css" />
         <link rel="stylesheet" type="text/css" href="/static/nprogress.css" />
         <link

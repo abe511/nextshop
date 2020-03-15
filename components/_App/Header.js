@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Router, { useRouter } from 'next/router';
 import NProgress from 'nprogress';
-import { Container, Menu, Icon } from 'semantic-ui-react';
+import { Container, Menu, Icon, Image } from 'semantic-ui-react';
 import { handleLogout } from '../../utils/auth';
 
 Router.onRouteChangeStart = () => {
@@ -29,8 +29,7 @@ function Header({ user }) {
       <Container text>
         <Link href="/">
           <Menu.Item header active={isActive('/')}>
-            <Icon name="home" size="large" />
-            The NEXT Shop
+            <Image src="../../static/NEXT_logo.png" size="small" />
           </Menu.Item>
         </Link>
         <Link href="/cart">
