@@ -1,4 +1,4 @@
-[ZEIT Now](https://thenextshop.now.sh)
+[VIEW](https://thenextshop.now.sh)
 
 use 4242 4242 4242 4242 as test credit card number
 
